@@ -7,7 +7,7 @@ def countdown(enddate):
         count_hours, rem = divmod(difference.seconds, 3600)
         count_minutes, count_seconds = divmod(rem, 60)
         if difference.days == 0 and count_hours == 0 and count_minutes == 0 and count_seconds == 0:
-            print("Good bye!")
+            print("Kickoff has been reached!")
             break
         print(str(difference.days) + " days "
               + str(count_hours) + " hours "
