@@ -1,5 +1,4 @@
-# Kickoff Countdown
-
-<h3 align='center'>Days Until Kickoff</h3>
-<p3 align='center>___________________</p3>
-
+# FRC KICKOFF COUNTDOWN
+<!---START-TIMER--->
+<h3 align='center'>14 days and 15 hours until Kickoff!</h3>
+<!---END-TIMER--->
