@@ -19,10 +19,10 @@ def update_readme(days, hours):
     if days == 0 and hours == 0:
         out_list = [f"<h3 align='center'>Kickoff has been reached!</h3>\n"]
     else:
-        out_list = [f"<h3 align='center' style='font-size: 20px;'>Kickoff Countdown</h3>\n",
-            f"<h3 align='center' style='font-size: 20px;'>__________________________</h3>\n",
-            f"<h3 align='center' style='font-size: 20px;'>{days} days|{hours} hours</h3>\n",
-            f"<h3 align='center' style='font-size: 20px;'>Remaining</h3>\n"]
+        out_list = [f"<h3 align='center' style='font-size: 64px;'>Kickoff Countdown</h3>\n",
+            f"<h3 align='center' style='font-size: 30px;'>----------------------------</h3>\n",
+            f"<h3 align='center' style='font-size: 25px;'>{days} days|{hours} hours</h3>\n",
+            f"<h3 align='center' style='font-size: 25px;'>Remaining</h3>\n"]
     final_output = []
 
     with open("README.md", "r") as file:
