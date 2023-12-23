@@ -19,7 +19,7 @@ def update_readme(days, hours):
     if days == 0 and hours == 0:
         out_list = [f"<h3 align='center'>Kickoff has been reached!</h3>\n"]
     else:
-        out_list = [f"<h3 align='center' style='font-size: 64px;'>Kickoff Countdown</h3>\n",
+        out_list = [f"<h3 align='center' style='font-size: 64px;'>FRC Kickoff Countdown</h3>\n",
             f"<h3 align='center' style='font-size: 30px;'>----------------------------------</h3>\n",
             f"<h3 align='center' style='font-size: 25px;'>{days} days | {hours} hours</h3>\n",
             f"<h3 align='center' style='font-size: 25px;'>Remaining</h3>\n"]
